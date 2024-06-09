@@ -2,4 +2,5 @@
 # eval "$(nodenv init -)"
 eval "$(zoxide init bash)"
 eval "$(zellij setup --generate-auto-start bash)"
+eval "$(direnv hook bash)"
 source /usr/share/doc/fzf/examples/key-bindings.bash
